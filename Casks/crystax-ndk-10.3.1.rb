@@ -1,4 +1,4 @@
-cask 'crystax-ndk' do
+cask 'crystax-ndk-10.3.1' do
   version '10.3.1'
   sha256 '382bc6bf8bf4fb1278372ac70f4b86cf6a633d60b33f30b6895f5c9975d3d7bf'
 
