@@ -6,6 +6,7 @@ cask 'crystax-ndk-10.2.1' do
   name 'Crystax NDK'
   homepage 'https://www.crystax.net/android/ndk'
 
+  depends_on formula: 'unar'
   conflicts_with cask: 'android-ndk'
 
   # shim script (https://github.com/caskroom/homebrew-cask/issues/18809)
