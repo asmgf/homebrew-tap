@@ -2,7 +2,7 @@ cask 'crystax-ndk-10.2.1' do
   version '10.2.1'
   sha256 '1503eec2b883ffbe8f24bcfd2f3d47579ff1c9ce84be3612d8cfe5339aa0df40'
 
-  url "https://www.crystax.net/download/crystax-ndk-#{version}-darwin-x86_64.tar.xz"
+  url "https://www.crystax.net/download/crystax-ndk-#{version}-darwin-x86_64.7z"
   name 'Crystax NDK'
   homepage 'https://www.crystax.net/android/ndk'
 
