@@ -2,7 +2,7 @@ cask 'crystax-ndk-r8-crystax-1' do
   version 'r8-crystax-1'
   sha256 '1aeadea2dc0b1ac8b6a0b96b34061fa9fd576d5e778acc6b777b662384e735c2'
 
-  url "https://www.crystax.net/download/crystax-ndk-#{version}-darwin-x86_64.tar.bz2"
+  url "https://www.crystax.net/download/android-ndk-#{version}-darwin-x86_64.tar.bz2"
   name 'Crystax NDK'
   homepage 'https://www.crystax.net/android/ndk'
 
@@ -11,11 +11,11 @@ cask 'crystax-ndk-r8-crystax-1' do
   # shim script (https://github.com/caskroom/homebrew-cask/issues/18809)
   shimscript = "#{staged_path}/ndk_exec.sh"
   preflight do
-    FileUtils.ln_sf("#{staged_path}/crystax-ndk-#{version}", "#{HOMEBREW_PREFIX}/share/crystax-ndk")
+    FileUtils.ln_sf("#{staged_path}/android-ndk-#{version}", "#{HOMEBREW_PREFIX}/share/crystax-ndk")
 
     IO.write shimscript, <<-EOS.undent
       #!/bin/bash
-      readonly executable="#{staged_path}/crystax-ndk-#{version}/$(basename ${0})"
+      readonly executable="#{staged_path}/android-ndk-#{version}/$(basename ${0})"
       test -f "${executable}" && exec "${executable}" "${@}"
     EOS
   end
