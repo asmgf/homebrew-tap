@@ -1,6 +1,6 @@
 cask 'crystax-ndk-10.3.1' do
   version '10.3.1'
-  sha256 '382bc6bf8bf4fb1278372ac70f4b86cf6a633d60b33f30b6895f5c9975d3d7bf'
+  sha256 '6469c37e8fa107db51f9ada26fe3e27fddf3d6c3c51272a783fed36b110550ef'
 
   url "https://www.crystax.net/download/crystax-ndk-#{version}-darwin-x86_64.tar.xz"
   name 'Crystax NDK'
