@@ -1,8 +1,8 @@
-cask 'crystax-ndk-8.1' do
-  version '8.1'
+cask 'crystax-ndk-r8-crystax-1' do
+  version 'r8-crystax-1'
   sha256 '1aeadea2dc0b1ac8b6a0b96b34061fa9fd576d5e778acc6b777b662384e735c2'
 
-  url 'https://www.crystax.net/download/android-ndk-r8-crystax-1-darwin-x86_64.tar.bz2'
+  url 'https://www.crystax.net/download/crystax-ndk-#{version}-darwin-x86_64.tar.bz2'
   name 'Crystax NDK'
   homepage 'https://www.crystax.net/android/ndk'
 
