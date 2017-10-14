@@ -1,5 +1,5 @@
-cask 'android-ndk-13b' do
-  version '13b'
+cask 'android-ndk-10e' do
+  version '10e'
   sha256 'eba299f1cdd9059e635d159dbe71678cea9f00efb3ef9b56083c7a09dff665bf'
 
   # dl.google.com/android/repository/android-ndk was verified as official when first introduced to the cask
