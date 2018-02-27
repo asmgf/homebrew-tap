@@ -7,7 +7,7 @@ cask 'android-ndk-keg-10e' do
   homepage 'https://developer.android.com/ndk/index.html'
 
   preflight do
-    FileUtils.ln_sf("#{staged_path}/android-ndk-r#{version}", "#{HOMEBREW_PREFIX}/share/android-ndk")
+    FileUtils.ln_sf("#{staged_path}/android-ndk-r#{version}", "#{HOMEBREW_PREFIX}/share/android-ndk-keg-#{version}")
   end
 
   uninstall_postflight do
