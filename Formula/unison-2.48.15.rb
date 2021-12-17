@@ -1,4 +1,4 @@
-class Unison < Formula
+class Unison24815 < Formula
   desc "File synchronization tool for OSX"
   homepage "https://www.cis.upenn.edu/~bcpierce/unison/"
   url "https://github.com/bcpierce00/unison/archive/v2.48.15v4.tar.gz"
