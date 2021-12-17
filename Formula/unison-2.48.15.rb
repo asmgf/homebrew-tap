@@ -6,13 +6,6 @@ class Unison24815 < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/bcpierce00/unison.git", branch: "master"
 
-  # The "latest" release on GitHub sometimes points to unstable versions (e.g.,
-  # release candidates), so we check the Git tags instead.
-  livecheck do
-    url :stable
-    regex(/^v?(\d+(?:\.\d+)+)$/i)
-  end
-
   bottle do
     sha256 cellar: :any_skip_relocation, high_sierra: "eb01217a48646b393a4769bdc25e1e947667816a38de9003211ac0342b8ec611"
     sha256 cellar: :any_skip_relocation, sierra:      "f9a68dceab3225aecf77c698a6db9f6aacd4f3795a63c2abc4c4cffdb0a13af5"
